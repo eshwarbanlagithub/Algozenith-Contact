@@ -1,0 +1,154 @@
+
+  @import url('https://fonts.googleapis.com/css2?family=DM+Sans&display=swap');
+  @import url('https://fonts.googleapis.com/css2?family=Inter&display=swap');
+
+  * {
+    padding: 0px;
+    margin: 0px;
+  }
+.Header1 {
+    display:flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #1F4482;
+    height: 592px;
+    width: 100%;
+    left: 0px;
+    top: -1px;
+    border-radius: 0px;
+    color:#FFFFFF;
+    
+}
+.color {
+    color: #E9EE00;
+}
+img {
+    height: 288px;
+    width: 288px;
+    left: 978px;
+    top: 144px;
+    border-radius: 24px;
+
+}
+.Heading1 {
+    height: 90px;
+    width: 562px;
+    left: 55px;
+    top: 19px;
+    border-radius: nullpx;
+    font-family: 'Rubik', sans-serif;
+
+}
+.Para1 {
+    font-family: 'DM Sans', sans-serif;
+    height: 81px;
+    width: 495px;
+    left: 55px;
+    top: 139px;
+    border-radius: nullpx;
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 40px;
+    letter-spacing: -0.03em;
+    text-align: left;
+
+}
+
+.mailer {
+    display:flex;
+    flex-direction: row;
+}
+/*.mail {
+    height: 64px;
+    width: 344px;
+    left: 55px;
+    top: 331px;
+    border-radius: 8px;
+    background: #FFFFFF;
+    border: 4px solid #FFFFFF
+}*/
+input {
+    height: 55px;
+    width: 350px;
+    left: 415px;
+    top: 331px;
+    border-radius: 8px;
+    border: 4px solid #FFFFFF;
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 32px;
+    letter-spacing: 0em;
+    text-align: left;
+    margin-right: 15px;
+    padding-left:10px;
+    padding-bottom:5px;
+}
+button {
+    height: 69.6px;
+    width: 216px;
+    left: 415px;
+    top: 331px;
+    border-radius: 8px;
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 32px;
+    letter-spacing: 0em;
+    text-align: center;
+    background-color: #282828;
+    color: #FFFFFF;
+}
+button:hover {
+    background-color: #414347;
+    cursor: pointer;
+}
+.mailer {
+    margin-top:90px;
+}
+.Para2 {
+    width:50%;
+    text-align:center;
+    margin-top:25px;
+    font-family: Inter;
+}
+.Item2 {
+    border-radius: 20px;
+    box-shadow: 0px 4px 200px 0px #FFFFFF;
+
+}
+.Body1 {
+    display:flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background-color: #282828;
+    color: white;
+
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 32px;
+    letter-spacing: 0em;
+    text-align: left;
+
+
+}
+.firstul {
+    list-style: none;
+    text-align: left;
+    padding-top: 5%;
+    padding-bottom: 5%;
+    padding-left: 10%;
+
+}
+.secondul {
+    list-style: none;
+    text-align: right;
+    padding-top: 5%;
+    padding-bottom: 5%;
+    padding-right: 10%;
+    display:flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
